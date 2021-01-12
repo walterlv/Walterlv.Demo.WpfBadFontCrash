@@ -5,16 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Walterlv.Demo.AllFonts"
         mc:Ignorable="d"
-        Title="字体崩溃检查工具" Height="450" Width="800">
+        Title="Bad Font File Checker" Height="450" Width="800">
     <Grid>
-        <ListBox x:Name="FontListBox" Grid.Row="1" Grid.Column="0">
-            <ListBox.ItemTemplate>
-                <DataTemplate>
-                    <local:FontPresenter>
-                        <TextBlock Text="{Binding}" FontFamily="{Binding}" />
-                    </local:FontPresenter>
-                </DataTemplate>
-            </ListBox.ItemTemplate>
-        </ListBox>
+        <TextBlock Text="ABCDEFGH" FontFamily="不给糖就捣蛋的万圣节" />
     </Grid>
 </Window>
