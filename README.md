@@ -65,3 +65,7 @@ System.IO.FileFormatException: Invalid file format.
 ## How to uninstall the font?
 
 NOTE: UWP apps also crashes so that the font management page of the UWP settings page crashes. Instead, you should uninstall it from the `C:\Windows\Fonts` folder.
+
+## Issue
+
+This project is been reported to the https://github.com/dotnet/wpf repository with issue https://github.com/dotnet/wpf/issues/3987.
